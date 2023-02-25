@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="70C1E011-1065-2DEE-45E3-5C313B027CE6" name="T_IBM_COLABORADOR_EMPRESA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 13:24:00 UTC</createdTime>
+<generatorID>47B1BB85-DDBC-A708-301C-14D8567AA1BB</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_COLABORADOR" id="BD0B1594-EEB0-2DDE-5273-464D72A397E9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 13:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[CHAVE PRIMÁRIA DO COLABORADOR.]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_EMPRESA" id="B183478B-78CE-D5E5-3D5B-7D39D96674A1">
+<createdBy>Luiz</createdBy>
+<createdTime>2022-04-19 22:01:31 UTC</createdTime>
+<generatorID>507B9E8B-930C-01E9-4176-F0C684AA1CAE</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<referedAttribute>F711FBDF-9497-1E40-FFDA-AE1AE4E47D71</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME_COLABORADOR" id="9E0ECAFB-64A7-D6E6-DB75-F9CA850DF717">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 13:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOME COLABORADOR NO SISTEMA.]]></commentInRDBMS>
+<generatorID>61645878-183D-01C9-20C6-FB55DA69AC92</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL_COLABORADOR" id="A735ECAE-6A43-5000-EA55-939FB44032A6">
+<createdBy>Luiz</createdBy>
+<createdTime>2022-05-16 18:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[EMAIL COLABORADOR EMPRESA.]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SENHA" id="A1E1EAF6-F626-EBCD-FF5F-4697DCD50A7E">
+<createdBy>Luiz</createdBy>
+<createdTime>2022-05-16 18:14:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[SENHA COLABORADOR EMPRESA CRIPTOGRAFADA.]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CARGO_COLABORADOR" id="F5058836-E41F-5B03-8BC1-80C19471F0A0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 13:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[CARGO DO COLABORADOR DA EMPRESA.]]></commentInRDBMS>
+<generatorID>4CB70D31-04E8-1F4F-4E92-805AAD177686</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF_COLABORADOR" id="0F5A76CA-AAF2-FF8C-7FC1-3F918242C19B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 13:24:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[CPF DO COLABORADOR NO SISTEMA.]]></commentInRDBMS>
+<generatorID>606E4C3B-7971-8342-7F83-AFDF9A93B9C4</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NV_COLABORADOR" id="0E651A8B-302B-AA01-23BC-28F141D52598">
+<createdBy>Luiz</createdBy>
+<createdTime>2022-05-16 16:34:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[NÍVEL DO COLABORADOR, PARA ESTABELECER PRIVILÉGIOS DENTRO DO SISTEMA.]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6CCC32FB-1355-38D0-0C87-5311D9A7DFA5" name="T_IBM_COLABORADOR PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 13:24:00 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>BD0B1594-EEB0-2DDE-5273-464D72A397E9</newElementsIDs>
+<usedAttributes>
+<attributeRef>BD0B1594-EEB0-2DDE-5273-464D72A397E9</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="543EFEB8-F836-47D3-5EF3-4B9C329EF33B" name="UK_T_IBM_CPF_COLABORADOR">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 04:40:08 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="false"/>
+</engineerTo>
+<newElementsIDs>0F5A76CA-AAF2-FF8C-7FC1-3F918242C19B</newElementsIDs>
+<usedAttributes>
+<attributeRef>0F5A76CA-AAF2-FF8C-7FC1-3F918242C19B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

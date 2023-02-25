@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C6DB9DF8-8607-D37A-7746-F49134CCA9D8" name="T_IBM_SCORE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 11:45:35 UTC</createdTime>
+<generatorID>47B1BB85-DDBC-A708-301C-14D8567AA1BB</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_SCORE" id="B30531B8-6963-687D-6DC5-132B6420DF80">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 11:45:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[ID DO SCORE DO CANDIDATO.]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CANDIDATO" id="C90C96AE-2AD5-5D08-8BB9-7A7D057E94FE">
+<createdBy>Luiz</createdBy>
+<createdTime>2022-05-16 17:20:14 UTC</createdTime>
+<generatorID>08AC5DCB-D7E4-E625-0A57-DF48316C9A2C</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<referedAttribute>7B56468E-D466-8231-2A09-90F689630E09</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SCORE" id="FF2F8DB5-16FB-38DB-966D-26F1D7D9112F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 11:45:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[SCORE ATUAL DO CANDIDATO.]]></commentInRDBMS>
+<generatorID>606E4C3B-7971-8342-7F83-AFDF9A93B9C4</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_SCORE" id="00F3BFE6-30CA-B9DB-B872-2CF5BE2BFE21">
+<createdBy>Luiz</createdBy>
+<createdTime>2022-05-16 17:12:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA QUE O SCORE FOI GERADO.]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1746DAA2-547E-8217-D940-5A91B204ACB9" name="T_IBM_SCORE PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 11:45:35 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>B30531B8-6963-687D-6DC5-132B6420DF80</newElementsIDs>
+<usedAttributes>
+<attributeRef>B30531B8-6963-687D-6DC5-132B6420DF80</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

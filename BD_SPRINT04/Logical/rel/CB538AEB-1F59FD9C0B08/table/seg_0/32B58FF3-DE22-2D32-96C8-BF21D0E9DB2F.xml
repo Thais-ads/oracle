@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32B58FF3-DE22-2D32-96C8-BF21D0E9DB2F" name="T_IBM_COLABORADOR_EMPRESA">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>70C1E011-1065-2DEE-45E3-5C313B027CE6</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COLABORADOR" id="592CCC2E-1CA4-8688-53C6-FDB9391F10E3">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[CHAVE PRIMÁRIA DO COLABORADOR.]]></commentInRDBMS>
+<generatorID>BD0B1594-EEB0-2DDE-5273-464D72A397E9</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SQ_IBM_COLABORADOR_EMPRESA</autoIncrementSequenceName>
+<autoIncrementTriggerName>TR_IBM_COLABORADOR_EMPRESA</autoIncrementTriggerName>
+</Column>
+<Column name="ID_EMPRESA" id="5F8BFCF0-D6A6-31EE-638C-9A0EA7D17321">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>B183478B-78CE-D5E5-3D5B-7D39D96674A1</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E62FE7F6-E866-0675-3D3F-8B9AA683D436" referredColumn="3C2728DE-2356-149E-EAC7-7E19A85E60EF"/>
+</associations>
+</Column>
+<Column name="NOME_COLABORADOR" id="95E3C60D-A979-0D33-00AA-1EE3CF126173">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOME COLABORADOR NO SISTEMA.]]></commentInRDBMS>
+<generatorID>9E0ECAFB-64A7-D6E6-DB75-F9CA850DF717</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL_COLABORADOR" id="2A2FEBDF-7611-A87D-DA19-67079EF47A47">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[EMAIL COLABORADOR EMPRESA.]]></commentInRDBMS>
+<generatorID>A735ECAE-6A43-5000-EA55-939FB44032A6</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SENHA" id="B6737FEF-9F3C-B469-49E1-F4A30A011953">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[SENHA COLABORADOR EMPRESA CRIPTOGRAFADA.]]></commentInRDBMS>
+<generatorID>A1E1EAF6-F626-EBCD-FF5F-4697DCD50A7E</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARGO_COLABORADOR" id="130099F0-4BCF-5A68-0A75-BC051A9C0400">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[CARGO DO COLABORADOR DA EMPRESA.]]></commentInRDBMS>
+<generatorID>F5058836-E41F-5B03-8BC1-80C19471F0A0</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPF_COLABORADOR" id="725E844E-E9F1-AD84-4884-0A408BAD66FB">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[CPF DO COLABORADOR NO SISTEMA.]]></commentInRDBMS>
+<generatorID>0F5A76CA-AAF2-FF8C-7FC1-3F918242C19B</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NV_COLABORADOR" id="5CF4AF26-FBAB-D618-3D47-6FCBFAF2E014">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[NÍVEL DO COLABORADOR, PARA ESTABELECER PRIVILÉGIOS DENTRO DO SISTEMA.]]></commentInRDBMS>
+<generatorID>0E651A8B-302B-AA01-23BC-28F141D52598</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0EF90D68-AC10-DB9E-73EF-969EC673A71E" name="T_IBM_COLABORADOR_PK">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>6CCC32FB-1355-38D0-0C87-5311D9A7DFA5</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="592CCC2E-1CA4-8688-53C6-FDB9391F10E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05DAE3BE-2D01-891E-4BF3-80967F7F480F" name="UK_T_IBM_CPF_COLABORADOR">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>543EFEB8-F836-47D3-5EF3-4B9C329EF33B</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="725E844E-E9F1-AD84-4884-0A408BAD66FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8E244CA-05D5-0381-9922-205FB6C5CB00" name="EMPRESA_COLABORADOR">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>507B9E8B-930C-01E9-4176-F0C684AA1CAE</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F8BFCF0-D6A6-31EE-638C-9A0EA7D17321"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

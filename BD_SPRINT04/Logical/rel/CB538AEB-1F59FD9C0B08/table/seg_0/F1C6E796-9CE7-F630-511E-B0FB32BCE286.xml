@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1C6E796-9CE7-F630-511E-B0FB32BCE286" name="T_IBM_FEEDBACK">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>C191EB0E-2C34-BBF5-43DD-ADBAF86D0393</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_FEEDBACK" id="78638555-BC7C-2D04-3117-123248739A06">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[ID FEEDBACK PARA O CANDIDATO.]]></commentInRDBMS>
+<generatorID>FFA83AFA-3989-AE8B-7060-92DB8CDFBBAB</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SQ_IBM_FEEDBACK</autoIncrementSequenceName>
+<autoIncrementTriggerName>TR_IBM_FEEDBACK</autoIncrementTriggerName>
+</Column>
+<Column name="ID_COLABORADOR" id="6E40F2BD-7139-FBB8-B6D9-EA6D2ABED83F">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>8DD5C043-3DF3-31A0-3E33-B1C5A88ECE30</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30B1FD70-4877-76CB-67BA-0919011D5849" referredColumn="592CCC2E-1CA4-8688-53C6-FDB9391F10E3"/>
+</associations>
+</Column>
+<Column name="TIPO_FEEDBACK" id="5E17FAED-F910-F74F-9785-1D3EB699641F">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[SE É POSITIVO OU NEGATIVO, IMPACTANDO NO CÁLCULO DO SCORE.]]></commentInRDBMS>
+<generatorID>1E72C03C-9F74-DB70-D33C-FA0421F79D0A</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESC_FEEDBACK" id="9B7E7621-BF35-EF6F-F01A-B4EE169720EE">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIÇÃO DO FEEDBACK]]></commentInRDBMS>
+<generatorID>D1EA0E1C-8C26-6E81-1EF0-A34328422FF9</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_FEEDBACK" id="FEDD1703-6AC1-3A41-46E2-DBE1323595A2">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DO FEEDBACK NO SISTEMA.]]></commentInRDBMS>
+<generatorID>56468083-7CD7-38AB-A8AA-DF88E1636DEB</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC2D4AE6-76F2-397B-D8B7-D42780680866" name="T_IBM_SOFTSKILL_PK">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>6E588ABB-B475-726F-DD97-BC45D2512B2A</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78638555-BC7C-2D04-3117-123248739A06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86AC7759-A6E8-9053-135D-42D700085E47" name="Relation_16">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>2118E2B1-A3C6-1A3C-C0CD-C5602214BC6D</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E40F2BD-7139-FBB8-B6D9-EA6D2ABED83F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCBF4D09-A31C-8070-04B6-EFAB7C982543" name="T_IBM_SKILLS">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>EE1E2940-3139-E3D5-8C84-ED26773BA9B1</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SKILL" id="FB7EEB5B-D5DD-76EB-7BA9-73E5EDD28334">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[ID DA SKILL CADASTRADA NO SISTEMA.]]></commentInRDBMS>
+<generatorID>C998D922-4CDA-E38C-2855-813C864EEF0F</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SQ_IBM_SKILLS</autoIncrementSequenceName>
+<autoIncrementTriggerName>TR_IBM_SKILLS</autoIncrementTriggerName>
+</Column>
+<Column name="NOME_SKILL" id="1FD527D6-DFD2-055A-CEEF-E9D378043939">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOME DA SKILL.]]></commentInRDBMS>
+<generatorID>0810F587-F15F-0D30-7894-3610005347E7</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_SKILL" id="4499D17A-43C2-8E8C-1E89-BD54FE753729">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[DISCRIMINAR SE É UMA HARDSKILL OU SOFTSKILL]]></commentInRDBMS>
+<generatorID>66663F8A-1892-4DD0-E4EA-FB6319FB5C13</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIVEL_SKILL" id="528ABB1D-80F1-D28D-4AC0-06D19C5C9182">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[DEPENDENDO DA SOFTSKILL OU HARDSKILL, OPICIONAL COLOCAR O NÍVEL (EX. INGLÊS PODE SER BÁSICO, INTERMEDIÁRIO OU AVANÇADO)]]></commentInRDBMS>
+<generatorID>08E24FD6-5807-2D03-DEA3-F257C14AC629</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CDFBE879-232B-D270-4012-4129EA9520F3" name="T_IBM_SOFTSKILL_PKv2">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>65654D4B-893E-D1C6-C6C7-C9A4AB8D1760</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB7EEB5B-D5DD-76EB-7BA9-73E5EDD28334"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

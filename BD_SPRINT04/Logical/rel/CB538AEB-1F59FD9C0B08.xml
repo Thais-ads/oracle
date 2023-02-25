@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" mainViewID="29774636-DA7C-CFEF-1194-788E6B7C4A3F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 11:06:57 UTC</createdTime>
+<ownerDesignName>Challenge_FIAP_Sprint1_BRD</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2FBF2657-D95A-E6BF-184B-E39F683A6CEF" containerWithKeyObject="931AFD48-14CF-1744-78C2-8B725797EF5E" localFKIndex="3836D8ED-7848-E7D9-BD08-FCF3010CBC4C" name="SKILL_VAGAS">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>EE5789C5-3993-89E6-4FF3-1081CB91E4BC</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<referredTableLongName>T_IBM_SKILLS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CCBF4D09-A31C-8070-04B6-EFAB7C982543</referredTableID>
+<keyObject>CDFBE879-232B-D270-4012-4129EA9520F3</keyObject>
+<referredKeyID>CDFBE879-232B-D270-4012-4129EA9520F3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_SKILL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

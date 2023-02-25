@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E0BD19C6-2006-522E-789B-AF61CFD38459" name="T_IBM_END_EMPRESA">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:33:00 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ENDERECO_IBM" id="C781346D-787A-B8AB-0E5D-45427BF9881D">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:33:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[este atributo é o de identificação primary key]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_EMPRESA" id="8D1DD000-66F7-B58C-CB51-329C1FD8EC1C">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:36:42 UTC</createdTime>
+<generatorID>FB7804A3-30F7-7C8A-EA1F-BED73A56B512</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<referedAttribute>F711FBDF-9497-1E40-FFDA-AE1AE4E47D71</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6B5AD283-7B02-8297-D570-05DD67DC4595" name="T_IBM_END_EMPRESA PK">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:34:55 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C781346D-787A-B8AB-0E5D-45427BF9881D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

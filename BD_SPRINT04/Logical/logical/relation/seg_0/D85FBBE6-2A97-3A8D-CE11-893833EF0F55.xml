@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CURRICULO_PROCESSO_SELETIVO" directorySegmentName="seg_0" id="D85FBBE6-2A97-3A8D-CE11-893833EF0F55">
+<createdBy>Luiz</createdBy>
+<createdTime>2022-05-16 17:51:44 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<sourcePk>ADED4A08-1EE1-CD0E-3BC7-DF3F7565D9B4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FF26A03A-945D-6381-09D4-D995C3F9D4C8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D239EBDC-B70C-C01F-0B83-B97C91E0432E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

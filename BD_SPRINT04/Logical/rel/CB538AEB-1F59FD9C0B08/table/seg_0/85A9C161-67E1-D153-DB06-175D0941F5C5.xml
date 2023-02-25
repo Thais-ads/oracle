@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85A9C161-67E1-D153-DB06-175D0941F5C5" name="T_IBM_PROCESSO_SELETIVO">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>D239EBDC-B70C-C01F-0B83-B97C91E0432E</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PROCESSO_SELETIVO" id="425DC65A-D5D6-3E29-3411-25F81671AFD5">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[ID PROCESSO SELETIVO.]]></commentInRDBMS>
+<generatorID>E8D1BD40-5381-B3F2-6750-7D638F3D7BD1</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SQ_IBM_PROCESSO_SELETIVO</autoIncrementSequenceName>
+<autoIncrementTriggerName>TR_IBM_PROCESSO_SELETIVO</autoIncrementTriggerName>
+</Column>
+<Column name="ID_VAGA" id="DBF1A74A-4D4D-33E5-4764-B3DC98CE90FE">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>CECCEF91-8D9F-B36B-F9DD-C44F48379559</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CE1881D-8F02-B290-160F-C3C96588DE4A" referredColumn="FAEB99D5-0E25-97C7-8582-98D3AD130A36"/>
+</associations>
+</Column>
+<Column name="ID_CURRICULO" id="0AF8331B-F178-E834-1E85-AC2B8B0CCE98">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>98994D65-6B67-2FE0-12F7-0783E18E467F</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="447AF315-15A8-75A0-4A99-F1461E63ACC6" referredColumn="50F897B7-2D06-F51E-3CE0-3A39980B2F4A"/>
+</associations>
+</Column>
+<Column name="DATA_INICIO" id="ABD4E0F5-B328-DD5E-DCD2-2B1C732E1CD1">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA INÍCIO PROCESSO SELETIVO.]]></commentInRDBMS>
+<generatorID>76110B0E-3EB4-1B99-FFE5-B87367D9B9DB</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_FIM" id="AFB34D8D-2F0D-83B6-F878-8B4FD43487FA">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA FIM PROCESSO SELETIVO.]]></commentInRDBMS>
+<generatorID>997DAE26-98FD-7B6B-B434-5E789C4231C4</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_FEEDBACK" id="73F0D863-2C21-793F-67C3-C060DB3EF9B7">
+<createdBy>Thais.spinoza</createdBy>
+<createdTime>2022-09-08 23:18:35 UTC</createdTime>
+<generatorID>8DFCEE97-CADF-D596-36DD-6311541F2B0B</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7E3AA14-A1AD-3842-6C03-C971BCBD0355" referredColumn="78638555-BC7C-2D04-3117-123248739A06"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7CBBAFE4-5B2A-31E4-8460-AAB4CE53241E" name="T_IBM_FORMACAO_ACADEMICA_PKv2">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>BD48313E-17C6-0A3D-06D7-F886F3A6BC9A</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="425DC65A-D5D6-3E29-3411-25F81671AFD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA87EE53-413C-1FC2-98F2-B560F7D776E7" name="T_IBM_PROCESSO_SELETIVO__IDX">
+<createdBy>Thais.spinoza</createdBy>
+<createdTime>2022-09-08 23:18:35 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D6451A87-0C80-10C4-4752-EBA880D00396</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="73F0D863-2C21-793F-67C3-C060DB3EF9B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7528AA2-1012-CF3B-8410-194958ED263E" name="CURRICULO_PROCESSO_SELETIVO">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>D85FBBE6-2A97-3A8D-CE11-893833EF0F55</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AF8331B-F178-E834-1E85-AC2B8B0CCE98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3681985-F17D-828D-4210-236A9E7757CF" name="VAGA_PROCESSO_SELETIVO">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>EBF3DD54-D61F-3AE9-C270-769672F006A0</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBF1A74A-4D4D-33E5-4764-B3DC98CE90FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCEC2B8D-DA7F-63AD-9C86-80D58A583A06" name="FK_feedback_processo_seletivo">
+<createdBy>Thais.spinoza</createdBy>
+<createdTime>2022-09-08 23:18:35 UTC</createdTime>
+<generatorID>D6451A87-0C80-10C4-4752-EBA880D00396</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73F0D863-2C21-793F-67C3-C060DB3EF9B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

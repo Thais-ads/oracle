@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ID_CANDIDATO" directorySegmentName="seg_0" id="C972BB43-53AA-8AEB-B8A6-D550CC352647">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-28 22:08:52 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<sourcePk>592949BB-4636-AEF6-7659-64FBFE11AF98</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>627F358C-0DC4-371A-D466-3F7A0C3CF846</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>45F6BD8D-E273-8EAF-0749-A95E248ADA30</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,184 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C4971CB-19B6-51E9-433A-DABE68FDF1A0" name="T_IBM_END_CANDIDATO">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>45F6BD8D-E273-8EAF-0749-A95E248ADA30</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ENDERECO" id="AA941488-3447-3201-2EDF-16920AB3C858">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[CHAVE PRIMÁRIA ENDEREÇO CANDIDATO.]]></commentInRDBMS>
+<generatorID>52C570CD-EA37-80F7-A905-0DAF949048DF</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SQ_IBM_END_CANDIDATO</autoIncrementSequenceName>
+<autoIncrementTriggerName>TR_IBM_END_CANDIDATO</autoIncrementTriggerName>
+</Column>
+<Column name="ID_CANDIDATO" id="AC5D955B-EC37-07BC-9399-A38A089A07D2">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>560A9D79-2030-DB57-460C-77C41EB8D6B2</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A08DAA1-3A69-6121-9026-4C7426BF0449" referredColumn="1BBBCE37-8D60-688C-43F6-C23565C50B74"/>
+</associations>
+</Column>
+<Column name="LOGRADOURO" id="2938BC95-CFF5-AFE9-2C99-94F540EB8AF7">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[LOGRADOURO CANDIDATO.]]></commentInRDBMS>
+<generatorID>F0E920B9-8065-483E-6610-F3287CA8DEB3</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UF" id="2B681C27-BF1A-856A-9ADC-FF6E421B86C6">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[UF DO LOGRADOURO.]]></commentInRDBMS>
+<generatorID>21793369-5E02-ED6C-EC56-EA4DF9EFA309</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PONTO_REFERENCIA" id="4D0D8116-068F-8345-5520-D3368141926D">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[ponro descriçao do local ]]></commentInRDBMS>
+<generatorID>89DB5D53-9671-E25B-C0F1-18DBC3D64D31</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_INICIO" id="32267D02-10E8-C01E-2600-C0BF541EBD12">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[este atributo irá receber a data inicio do candidato associado ao endereço LOGRADOURO.]]></commentInRDBMS>
+<generatorID>72CC2E47-62D3-2841-6B5A-886F40A59691</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_FIM" id="A545EB47-FBE1-8481-CCAD-01796F594490">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[este atributo irá receber a data fim do candidato associado ao endereço LOGRADOURO.
+Seu conteudo é obrigatorio.]]></commentInRDBMS>
+<generatorID>E2DE0549-8C4A-B82A-14A9-F144FBE21C99</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_LOGRADOURO" id="A36AF392-1B79-196A-075A-22AA9BEB7096">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>9FCD8E97-3E7A-513B-4936-B6F43441292C</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BAIRRO" id="B196B67D-FCAE-AF9C-0CC6-D8790445DCC5">
+<createdBy>Thais.spinoza</createdBy>
+<createdTime>2022-09-08 23:18:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[esse atributo armazena a informação  do bairro ]]></commentInRDBMS>
+<generatorID>15C9E571-5EDB-9A34-90AB-78C43EB31C48</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEP" id="1338EAAC-1832-60B3-2F69-93E975B59CC1">
+<createdBy>Thais.spinoza</createdBy>
+<createdTime>2022-09-08 23:18:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Este atributo é obrigatorio e armazena o valor do cep]]></commentInRDBMS>
+<generatorID>B2773EF3-6D94-9874-9EC6-8A1AF3B28100</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIDADE" id="8842D668-FA87-152E-C290-7F0461316625">
+<createdBy>Thais.spinoza</createdBy>
+<createdTime>2022-09-08 23:18:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[esse atributo recebe o valor do nome cidade]]></commentInRDBMS>
+<generatorID>0DD7D94E-6170-6D63-9DAF-190CA24366CA</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D32F22D7-02DC-E628-199C-2EC654731409" name="T_IBM_END_CANDIDATO_PKv2">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>675F8CD4-922B-9119-5310-1CA1573432D5</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA941488-3447-3201-2EDF-16920AB3C858"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CD88DE3-1820-EAA5-EFB3-614887C88D72" name="ID_CANDIDATO">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>C972BB43-53AA-8AEB-B8A6-D550CC352647</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC5D955B-EC37-07BC-9399-A38A089A07D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

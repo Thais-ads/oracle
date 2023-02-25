@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VAGA_PROCESSO_SELETIVO" directorySegmentName="seg_0" id="EBF3DD54-D61F-3AE9-C270-769672F006A0">
+<createdBy>Luiz</createdBy>
+<createdTime>2022-05-16 17:44:04 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<sourcePk>562E40AB-AB92-D864-8C36-DA47025D96D2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5979D778-5CE5-CF5C-1310-C3800DD18550</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D239EBDC-B70C-C01F-0B83-B97C91E0432E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

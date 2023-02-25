@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_feedback_processo_seletivo" directorySegmentName="seg_0" id="D6451A87-0C80-10C4-4752-EBA880D00396">
+<createdBy>Thais.spinoza</createdBy>
+<createdTime>2022-09-08 18:34:51 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<sourcePk>6E588ABB-B475-726F-DD97-BC45D2512B2A</sourcePk>
+<targetPk>BD48313E-17C6-0A3D-06D7-F886F3A6BC9A</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C191EB0E-2C34-BBF5-43DD-ADBAF86D0393</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D239EBDC-B70C-C01F-0B83-B97C91E0432E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

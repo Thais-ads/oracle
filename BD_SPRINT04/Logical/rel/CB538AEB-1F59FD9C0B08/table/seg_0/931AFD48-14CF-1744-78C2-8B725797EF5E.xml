@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="931AFD48-14CF-1744-78C2-8B725797EF5E" name="T_IBM_VAGA">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>5979D778-5CE5-CF5C-1310-C3800DD18550</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VAGA" id="FAEB99D5-0E25-97C7-8582-98D3AD130A36">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[CHAVE PRIMÁRIA VAGA DISPONÍVEL.]]></commentInRDBMS>
+<generatorID>E538B9AE-FE1E-FE93-97A2-D492D6A21CB0</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO_VAGA" id="A972968A-8A64-81B4-DD19-62C8689B0445">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRITIVO DA VAGA OFERTADA.]]></commentInRDBMS>
+<generatorID>7BB1F23B-FF40-4443-261A-830FB2C3FFD0</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_EMPRESA" id="E1E66BAF-50CD-F5DD-5104-F78EF31AA356">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>E4180683-8994-CCE6-6B72-3A91AB20804F</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56B8EEBD-D3E2-EB47-0FFF-64A6A2CC46FB" referredColumn="3C2728DE-2356-149E-EAC7-7E19A85E60EF"/>
+</associations>
+</Column>
+<Column name="ID_SKILL" id="BAB27A8C-F925-ED68-1BEA-42163CA33F60">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>9C8BB92E-3DD4-40C2-6088-D48D748C35A4</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FBF2657-D95A-E6BF-184B-E39F683A6CEF" referredColumn="FB7EEB5B-D5DD-76EB-7BA9-73E5EDD28334"/>
+</associations>
+</Column>
+<Column name="REQUISITO_NIVEL_ACADEMICO" id="B3287E03-B82F-59D7-B49E-650F9EA91A34">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[ONDE SERÁ INDICADO SE A VAGA É NÍVEL MÉDIO, SUPERIOR CURSANDO, SUPERIOR COMPLETO, ENTRE OUTROS.]]></commentInRDBMS>
+<generatorID>73156297-3ACC-66F0-A850-03FA38436A9C</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0FE74FF5-E5EF-F080-FA3B-71F12BAF765B" name="T_IBM_EMPRESA_PKv2">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>562E40AB-AB92-D864-8C36-DA47025D96D2</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAEB99D5-0E25-97C7-8582-98D3AD130A36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2F1FD9A-83AC-0E4B-C75B-192185BC6C47" name="EMPRESA_VAGA">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>0BE5677D-1572-44B8-91B5-82C7BE98DE9C</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1E66BAF-50CD-F5DD-5104-F78EF31AA356"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3836D8ED-7848-E7D9-BD08-FCF3010CBC4C" name="SKILL_VAGAS">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>EE5789C5-3993-89E6-4FF3-1081CB91E4BC</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAB27A8C-F925-ED68-1BEA-42163CA33F60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

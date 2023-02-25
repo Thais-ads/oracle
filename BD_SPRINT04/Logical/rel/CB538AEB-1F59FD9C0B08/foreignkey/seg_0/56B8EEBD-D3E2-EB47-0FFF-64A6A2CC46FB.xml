@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="56B8EEBD-D3E2-EB47-0FFF-64A6A2CC46FB" containerWithKeyObject="931AFD48-14CF-1744-78C2-8B725797EF5E" localFKIndex="A2F1FD9A-83AC-0E4B-C75B-192185BC6C47" name="EMPRESA_VAGA">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>0BE5677D-1572-44B8-91B5-82C7BE98DE9C</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<referredTableLongName>T_IBM_EMPRESA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>73EE5C3F-A9E5-11AD-4305-D295C69BC8AE</referredTableID>
+<keyObject>2D06E307-F704-292D-AC41-6005580CC984</keyObject>
+<referredKeyID>2D06E307-F704-292D-AC41-6005580CC984</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_EMPRESA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

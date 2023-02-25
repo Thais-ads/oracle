@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SKILL_VAGAS" directorySegmentName="seg_0" id="EE5789C5-3993-89E6-4FF3-1081CB91E4BC">
+<createdBy>Luiz</createdBy>
+<createdTime>2022-05-16 16:45:55 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<sourcePk>65654D4B-893E-D1C6-C6C7-C9A4AB8D1760</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EE1E2940-3139-E3D5-8C84-ED26773BA9B1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5979D778-5CE5-CF5C-1310-C3800DD18550</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

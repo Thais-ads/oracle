@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF739A6A-FC66-540E-C317-21CA5B886E12" name="T_IBM_EMPRESA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 11:34:39 UTC</createdTime>
+<generatorID>47B1BB85-DDBC-A708-301C-14D8567AA1BB</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_EMPRESA" id="F711FBDF-9497-1E40-FFDA-AE1AE4E47D71">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 11:34:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[CHAVE PRIMÁRIA EMPRESA. NO CASO DO CHALLENGE, É A IBM, PORÉM PREVEMOS QUE OUTRAS EMPRESAS PODEM SER CADASTRADAS FUTURAMENTE.]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CNPJ_EMPRESA" id="C0E04683-6387-B458-75FB-E42724E92EC2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 11:34:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[CNPJ DA EMPRESA NO SISTEMA.]]></commentInRDBMS>
+<generatorID>606E4C3B-7971-8342-7F83-AFDF9A93B9C4</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RAZAO_SOCIAL" id="E9ABBC4D-DF3E-9439-A36F-42319DC06AFC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 11:34:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[RAZÃO SOCIAL DA EMPRESA NO SISTEMA.]]></commentInRDBMS>
+<generatorID>61645878-183D-01C9-20C6-FB55DA69AC92</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME_FANTASIA" id="81387492-08AB-62EE-22E7-83E4DE257BB7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 11:34:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOME FANTASIA EMPRESA, NÃO OBRIGATÓRIO.]]></commentInRDBMS>
+<generatorID>4CB70D31-04E8-1F4F-4E92-805AAD177686</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ENDERECO" id="0361259F-C65A-6596-0608-5B245B5A3AED">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 12:38:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENDEREÇO DA EMPRESA.]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="678A2040-EEF1-4B8F-BCD7-4981683501FF" name="T_IBM_EMPRESA PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 11:34:39 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>F711FBDF-9497-1E40-FFDA-AE1AE4E47D71</newElementsIDs>
+<usedAttributes>
+<attributeRef>F711FBDF-9497-1E40-FFDA-AE1AE4E47D71</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

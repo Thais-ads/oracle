@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73EE5C3F-A9E5-11AD-4305-D295C69BC8AE" name="T_IBM_EMPRESA">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>DF739A6A-FC66-540E-C317-21CA5B886E12</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EMPRESA" id="3C2728DE-2356-149E-EAC7-7E19A85E60EF">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[CHAVE PRIMÁRIA EMPRESA. NO CASO DO CHALLENGE, É A IBM, PORÉM PREVEMOS QUE OUTRAS EMPRESAS PODEM SER CADASTRADAS FUTURAMENTE.]]></commentInRDBMS>
+<generatorID>F711FBDF-9497-1E40-FFDA-AE1AE4E47D71</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SQ_IBM_EMPRESA</autoIncrementSequenceName>
+<autoIncrementTriggerName>TR_IBM_EMPRESA</autoIncrementTriggerName>
+</Column>
+<Column name="CNPJ_EMPRESA" id="6F447385-E227-E12B-8B01-B6ECE6DD4913">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[CNPJ DA EMPRESA NO SISTEMA.]]></commentInRDBMS>
+<generatorID>C0E04683-6387-B458-75FB-E42724E92EC2</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RAZAO_SOCIAL" id="4311B4D0-CCDB-804C-6D81-EB38136417E7">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[RAZÃO SOCIAL DA EMPRESA NO SISTEMA.]]></commentInRDBMS>
+<generatorID>E9ABBC4D-DF3E-9439-A36F-42319DC06AFC</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME_FANTASIA" id="A9A3F41E-268D-3E74-DB5B-592BB49BC955">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOME FANTASIA EMPRESA, NÃO OBRIGATÓRIO.]]></commentInRDBMS>
+<generatorID>81387492-08AB-62EE-22E7-83E4DE257BB7</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDERECO" id="CDC37765-0BDB-24C0-0E3A-1F01EC01CDFF">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENDEREÇO DA EMPRESA.]]></commentInRDBMS>
+<generatorID>0361259F-C65A-6596-0608-5B245B5A3AED</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D06E307-F704-292D-AC41-6005580CC984" name="T_IBM_EMPRESA_PK">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>678A2040-EEF1-4B8F-BCD7-4981683501FF</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C2728DE-2356-149E-EAC7-7E19A85E60EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

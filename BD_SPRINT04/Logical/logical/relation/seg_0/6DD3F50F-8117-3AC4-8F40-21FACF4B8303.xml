@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CANDIDATO_CURRICULO" directorySegmentName="seg_0" id="6DD3F50F-8117-3AC4-8F40-21FACF4B8303">
+<createdBy>Luiz</createdBy>
+<createdTime>2022-04-19 21:48:40 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<sourcePk>592949BB-4636-AEF6-7659-64FBFE11AF98</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>627F358C-0DC4-371A-D466-3F7A0C3CF846</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>FF26A03A-945D-6381-09D4-D995C3F9D4C8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

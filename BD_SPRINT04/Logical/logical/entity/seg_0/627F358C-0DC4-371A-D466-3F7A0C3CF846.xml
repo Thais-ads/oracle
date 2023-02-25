@@ -1,0 +1,255 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="627F358C-0DC4-371A-D466-3F7A0C3CF846" name="T_IBM_CANDIDATO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 11:21:12 UTC</createdTime>
+<generatorID>47B1BB85-DDBC-A708-301C-14D8567AA1BB</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CANDIDATO" id="7B56468E-D466-8231-2A09-90F689630E09">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 11:31:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[CHAVE PRIMÁRIA DO CANDIDADATO.]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME_CANDIDATO" id="9635C189-21F9-0D30-CA09-18FACFCE1DF4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 11:21:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOME CANDIDADO NO SISTEMA.]]></commentInRDBMS>
+<generatorID>61645878-183D-01C9-20C6-FB55DA69AC92</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF_CANDIDATO" id="3A7EFCC4-CBAC-AAC8-4F4A-E45EE5D6EE88">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 11:21:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[CPF DO CANDIDATO DO SISTEMA.]]></commentInRDBMS>
+<generatorID>606E4C3B-7971-8342-7F83-AFDF9A93B9C4</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RG_CANDIDATO" id="F866768B-F742-E368-4AC4-00BB1B2FB9DE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 11:21:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[RG DO CANDIDADATO, PREVENDO VARIAÇÕES COM LETRAS.]]></commentInRDBMS>
+<generatorID>4CB70D31-04E8-1F4F-4E92-805AAD177686</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RNE_CANDIDATO" id="11D941B4-86EE-8E80-09FF-5BA4DB42C02A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 11:21:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[RNE CANDIDADO, CASO SEJA ESTRANGEIRO. NÃO OBRIGATÓRIO.]]></commentInRDBMS>
+<generatorID>ECAF9E87-DCAC-0D4F-6966-74A075E6244E</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO_CIVIL" id="FEB03205-D4D0-CCD6-6C2D-2297BA67871E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 12:37:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[ESTADO CIVIL DO CANDIDATO.]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TEL_CANDIDATO" id="9BD095EE-3DE3-7BD7-12D7-B301CC43D92C">
+<createdBy>Luiz</createdBy>
+<createdTime>2022-05-16 16:17:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[TELEFONE DO CANDIDATO.]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL_CANDIDATO" id="96436D13-FA40-E2C5-E110-0C6442A25B57">
+<createdBy>Luiz</createdBy>
+<createdTime>2022-05-16 16:19:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[EMAIL DO CANDIDATO.]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SENHA" id="DC910330-822E-0FB1-DA42-75B75DAE8AA5">
+<createdBy>Luiz</createdBy>
+<createdTime>2022-05-16 18:07:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[SENHA DO CANDIDADO CRIPTOGRAFADA.]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_NASCIMENTO" id="9D39E0CC-F6E5-892E-2D21-58F1754FAF9D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 11:24:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE NASCIMENTO CANDIDATO.]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENERO_CANDIDATO" id="23A956F5-1763-627D-31FF-FB350D4EBED0">
+<createdBy>Luiz</createdBy>
+<createdTime>2022-04-19 21:17:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[GÊNERO DO CANDIDATO.Este atributo indica o SEXO  do candidato. Campo Obrigatoio e informativo de que (F) i feminino e  (M)masculino.]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<constraintName>CK_GENERO_CANDIDATO</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="F" description="este valor indica que o Genero do candidato é Feminino"/>
+<valueDef value="M" description="este valor indica que o Genero do candidato é Masculino"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ST_TELEFONE_CANDIDATO" id="25318710-6BAB-965C-82B9-44CFCA16AC58">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 04:35:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Este atributo indica o status do telefone do candidato. Campo Obrigatoio e informativo de que (A) ATIVO e (I) de inoperante.]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<constraintName>CK_ST_TELEFONE_CANDIDATO</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="Este valor indica que o telefone do  candidato está Ativo."/>
+<valueDef value="I" description="Este valor indica que o telefone do candidato esta Inoperante"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ST_EMAIL_CANDIDATO" id="E7FA35ED-EB39-50A9-B82D-22CF0D4D2EAB">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 04:36:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Este atributo indica o status de EMAIL  do candidato. Campo Obrigatoio e informativo de que (A) ATIVO e (I) de inoperante.]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<constraintName>CK_ST_EMAIL_CANDIDATO</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="indica que esse email está ativo."/>
+<valueDef value="I" description="indica que esse email está inoperante."/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="592949BB-4636-AEF6-7659-64FBFE11AF98" name="T_IBM_CANDIDATO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 11:32:02 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7B56468E-D466-8231-2A09-90F689630E09</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="70FCCFC8-E9F3-9239-0B1E-AB6ABE6D97A8" name="UK_T_IBM_CPF_CANDIDATO">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 04:38:32 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<newElementsIDs>3A7EFCC4-CBAC-AAC8-4F4A-E45EE5D6EE88</newElementsIDs>
+<usedAttributes>
+<attributeRef>3A7EFCC4-CBAC-AAC8-4F4A-E45EE5D6EE88</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="87B7E5A1-36DC-D2C1-B83E-15D28734D6C2" name="UK_T_IBM_RG_CANDIDATO">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 04:38:59 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<newElementsIDs>F866768B-F742-E368-4AC4-00BB1B2FB9DE</newElementsIDs>
+<usedAttributes>
+<attributeRef>F866768B-F742-E368-4AC4-00BB1B2FB9DE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

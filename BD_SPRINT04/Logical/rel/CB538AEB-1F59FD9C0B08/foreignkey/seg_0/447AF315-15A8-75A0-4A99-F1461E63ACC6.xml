@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="447AF315-15A8-75A0-4A99-F1461E63ACC6" containerWithKeyObject="85A9C161-67E1-D153-DB06-175D0941F5C5" localFKIndex="D7528AA2-1012-CF3B-8410-194958ED263E" name="CURRICULO_PROCESSO_SELETIVO">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>D85FBBE6-2A97-3A8D-CE11-893833EF0F55</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<referredTableLongName>T_IBM_CURRICULO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>29876B5D-DF8B-B836-225E-C51543C84780</referredTableID>
+<keyObject>C75E1BC6-E7A1-4CC8-71C3-628858B54FE2</keyObject>
+<referredKeyID>C75E1BC6-E7A1-4CC8-71C3-628858B54FE2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CURRICULO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

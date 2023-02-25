@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMPRESA_VAGA" directorySegmentName="seg_0" id="0BE5677D-1572-44B8-91B5-82C7BE98DE9C">
+<createdBy>Luiz</createdBy>
+<createdTime>2022-04-19 22:02:40 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<sourcePk>678A2040-EEF1-4B8F-BCD7-4981683501FF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DF739A6A-FC66-540E-C317-21CA5B886E12</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5979D778-5CE5-CF5C-1310-C3800DD18550</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

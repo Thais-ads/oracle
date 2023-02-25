@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1263050F-2D69-EC2E-3600-E07342DC756A" name="T_IBM_FORMACAO_ACADEMICA">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>06E0EA59-A1C4-937A-66E6-4335B7B593C0</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_FORMACAO" id="C75202A0-D760-EFD7-B350-979852AD97FC">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[ID DA FORMACAO CADASTRADA NO SISTEMA.]]></commentInRDBMS>
+<generatorID>36A009EC-A3C6-2AE6-5F6A-A2E564757BA9</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SQ_IBM_FORMACAO_ACADEMICA</autoIncrementSequenceName>
+<autoIncrementTriggerName>TR_IBM_FORMACAO_ACADEMICA</autoIncrementTriggerName>
+</Column>
+<Column name="NIVEL_FORMACAO" id="BF98C3AD-CAC0-755C-4006-5E2AC366D752">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[ESTABELECER SE É ENSINO MÉDIO, SUPERIOR, PÓS GRADUAÇÃO, MBA...]]></commentInRDBMS>
+<generatorID>EFB3C8AF-A62E-67BD-62A7-386B1A3C582E</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSTITUICAO" id="B776107B-A8C5-41EB-841C-20CD47331A2D">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[INFORMAR A INSTITUIÇÃO QUE ESTÁ CURSANDO OU CURSOU.]]></commentInRDBMS>
+<generatorID>A0397D89-86E0-FF5C-D016-7212B597D882</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_INICIO" id="00E63AF7-3923-B9A3-A060-70564039B054">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA INÍCIO FORMAÇÃO.]]></commentInRDBMS>
+<generatorID>50BDBBF6-55F1-5182-30EC-95873CDC062C</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_FIM" id="34018385-DE07-0F87-E34A-3159CA2D0191">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA FIM FORMAÇÃO.]]></commentInRDBMS>
+<generatorID>A49DE7CC-82F6-250E-3F47-3E85706B5FF0</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="E741A5B3-EA26-7B16-E1BF-658E836E1AFD">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[INFORMAR SE ESTÁ COMPLETO, INCOMPLETO OU CURSANDO.]]></commentInRDBMS>
+<generatorID>9EEE40EB-CF8D-990E-6BEA-015DFF9EE867</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9227A416-7F3C-CDE0-0AD7-16BDF6073136" name="T_IBM_FORMACAO_ACADEMICA_PK">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>F804549D-E684-1716-1ADF-6531F5865F5C</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C75202A0-D760-EFD7-B350-979852AD97FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

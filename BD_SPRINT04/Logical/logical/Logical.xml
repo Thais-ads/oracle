@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="8E902D15-9AB1-1B35-B105-44BF72B500A0" mainViewID="5A15F0EC-9CBE-D225-8DB4-826D0A8A337E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 11:06:56 UTC</createdTime>
+<ownerDesignName>Challenge_FIAP_Sprint1_BRD</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

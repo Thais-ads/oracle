@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EE1E2940-3139-E3D5-8C84-ED26773BA9B1" name="T_IBM_SKILLS">
+<createdBy>Luiz</createdBy>
+<createdTime>2022-05-16 16:25:12 UTC</createdTime>
+<generatorID>47B1BB85-DDBC-A708-301C-14D8567AA1BB</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_SKILL" id="C998D922-4CDA-E38C-2855-813C864EEF0F">
+<createdBy>Luiz</createdBy>
+<createdTime>2022-05-16 16:25:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[ID DA SKILL CADASTRADA NO SISTEMA.]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME_SKILL" id="0810F587-F15F-0D30-7894-3610005347E7">
+<createdBy>Luiz</createdBy>
+<createdTime>2022-05-16 16:30:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOME DA SKILL.]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_SKILL" id="66663F8A-1892-4DD0-E4EA-FB6319FB5C13">
+<createdBy>Luiz</createdBy>
+<createdTime>2022-05-16 16:26:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[DISCRIMINAR SE É UMA HARDSKILL OU SOFTSKILL]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIVEL_SKILL" id="08E24FD6-5807-2D03-DEA3-F257C14AC629">
+<createdBy>Luiz</createdBy>
+<createdTime>2022-05-16 16:25:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[DEPENDENDO DA SOFTSKILL OU HARDSKILL, OPICIONAL COLOCAR O NÍVEL (EX. INGLÊS PODE SER BÁSICO, INTERMEDIÁRIO OU AVANÇADO)]]></commentInRDBMS>
+<generatorID>606E4C3B-7971-8342-7F83-AFDF9A93B9C4</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="65654D4B-893E-D1C6-C6C7-C9A4AB8D1760" name="T_IBM_SOFTSKILL PK">
+<createdBy>Luiz</createdBy>
+<createdTime>2022-05-16 16:25:12 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C998D922-4CDA-E38C-2855-813C864EEF0F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

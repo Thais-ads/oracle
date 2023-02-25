@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="45F6BD8D-E273-8EAF-0749-A95E248ADA30" name="T_IBM_END_CANDIDATO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 14:22:26 UTC</createdTime>
+<generatorID>47B1BB85-DDBC-A708-301C-14D8567AA1BB</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ENDERECO" id="52C570CD-EA37-80F7-A905-0DAF949048DF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 14:22:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[CHAVE PRIMÁRIA ENDEREÇO CANDIDATO.]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CANDIDATO" id="560A9D79-2030-DB57-460C-77C41EB8D6B2">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-28 22:08:52 UTC</createdTime>
+<generatorID>C972BB43-53AA-8AEB-B8A6-D550CC352647</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<referedAttribute>7B56468E-D466-8231-2A09-90F689630E09</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOGRADOURO" id="F0E920B9-8065-483E-6610-F3287CA8DEB3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 14:22:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[LOGRADOURO CANDIDATO.]]></commentInRDBMS>
+<generatorID>4CB70D31-04E8-1F4F-4E92-805AAD177686</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UF" id="21793369-5E02-ED6C-EC56-EA4DF9EFA309">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 14:32:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[UF DO LOGRADOURO.]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PONTO_REFERENCIA" id="89DB5D53-9671-E25B-C0F1-18DBC3D64D31">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:15:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ponro descriçao do local ]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_INICIO" id="72CC2E47-62D3-2841-6B5A-886F40A59691">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:17:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[este atributo irá receber a data inicio do candidato associado ao endereço LOGRADOURO.]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_FIM" id="E2DE0549-8C4A-B82A-14A9-F144FBE21C99">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:18:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[este atributo irá receber a data fim do candidato associado ao endereço LOGRADOURO.
+Seu conteudo é obrigatorio.]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BAIRRO" id="15C9E571-5EDB-9A34-90AB-78C43EB31C48">
+<createdBy>Thais.spinoza</createdBy>
+<createdTime>2022-09-08 18:38:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[esse atributo armazena a informação  do bairro ]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CEP" id="B2773EF3-6D94-9874-9EC6-8A1AF3B28100">
+<createdBy>Thais.spinoza</createdBy>
+<createdTime>2022-09-08 18:39:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[Este atributo é obrigatorio e armazena o valor do cep]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CIDADE " id="0DD7D94E-6170-6D63-9DAF-190CA24366CA">
+<createdBy>Thais.spinoza</createdBy>
+<createdTime>2022-09-08 23:14:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[esse atributo recebe o valor do nome cidade]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="675F8CD4-922B-9119-5310-1CA1573432D5" name="T_IBM_END_CANDIDATO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 14:22:26 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="CB538AEB-89A1-82AB-B5A1-1F59FD9C0B08" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>52C570CD-EA37-80F7-A905-0DAF949048DF</newElementsIDs>
+<usedAttributes>
+<attributeRef>52C570CD-EA37-80F7-A905-0DAF949048DF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

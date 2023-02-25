@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="8AF96AAF-25EF-5DB2-A3D0-88ECDBCC2A9E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-19 11:06:56 UTC</createdTime>
+<ownerDesignName>Challenge_FIAP_Sprint1_BRD</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

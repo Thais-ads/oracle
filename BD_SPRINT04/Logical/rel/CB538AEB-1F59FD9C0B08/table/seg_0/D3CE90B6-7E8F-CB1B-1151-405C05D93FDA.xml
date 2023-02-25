@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3CE90B6-7E8F-CB1B-1151-405C05D93FDA" name="T_IBM_END_EMPRESA">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>E0BD19C6-2006-522E-789B-AF61CFD38459</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ENDERECO_IBM" id="A04D5006-C24E-6446-D10E-3F9338D0AD5F">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[este atributo é o de identificação primary key]]></commentInRDBMS>
+<generatorID>C781346D-787A-B8AB-0E5D-45427BF9881D</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_EMPRESA" id="C64AFA70-F170-E826-BD2F-40894283F05A">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>8D1DD000-66F7-B58C-CB51-329C1FD8EC1C</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42685A6E-DE7E-B090-A86D-6D6B9D0CF8CD" referredColumn="3C2728DE-2356-149E-EAC7-7E19A85E60EF"/>
+</associations>
+</Column>
+<Column name="NM_LOGRADOURO" id="555C539B-10C2-41FA-6CB4-A99076B325C9">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>0FBDD72B-81FF-0F7A-FC96-6FEE61227AC5</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOGRADOURO" id="E2493984-4022-3941-0C3B-16A413CBA75B">
+<createdBy>thais.spinoza</createdBy>
+<createdTime>2022-10-14 05:06:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[CAMPO QUE RECEBE UM DADO STRING QUE DIS RESPEITO AO LOGRADOURO DO LOCAL]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BAIRRO" id="D20AE29C-F819-400D-63EC-B8FDD0957A1E">
+<createdBy>thais.spinoza</createdBy>
+<createdTime>2022-10-14 05:07:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[ATRIBUTO QUE RECEBE O NOME DO BAIRRO]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEP" id="76DC9F6A-2AEE-E4AE-62EB-CDF2C0141986">
+<createdBy>thais.spinoza</createdBy>
+<createdTime>2022-10-14 05:08:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[ATRIBUTO QUE RECEBE O CEP DO LOCAL]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UF" id="4DF53EBE-A94C-52E8-27F0-1D86E2C87BD0">
+<createdBy>thais.spinoza</createdBy>
+<createdTime>2022-10-14 05:08:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[ATRIBUTO QUE RECEBE A SIGLA DA CIDADE]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PONTO_REFERENCIA" id="C717EF91-83F3-1AAA-82CF-011618A9E5CF">
+<createdBy>thais.spinoza</createdBy>
+<createdTime>2022-10-14 05:09:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[ATRIBUTO QUE RECEBE UMA DESCRIÇAO DO PONTO DE REFERENCIA DO LOCAL ]]></commentInRDBMS>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91F28683-2367-9824-0A43-35B46DC52EFB" name="T_IBM_END_EMPRESA_PK">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>6B5AD283-7B02-8297-D570-05DD67DC4595</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A04D5006-C24E-6446-D10E-3F9338D0AD5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CF6EC30-C28E-D5E8-CFCC-D210FDAE3D73" name="PK_IBM_EMPRESA">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>FB7804A3-30F7-7C8A-EA1F-BED73A56B512</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C64AFA70-F170-E826-BD2F-40894283F05A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

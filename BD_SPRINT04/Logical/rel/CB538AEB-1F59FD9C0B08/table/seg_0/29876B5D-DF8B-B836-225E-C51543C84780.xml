@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29876B5D-DF8B-B836-225E-C51543C84780" name="T_IBM_CURRICULO">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>FF26A03A-945D-6381-09D4-D995C3F9D4C8</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CURRICULO" id="50F897B7-2D06-F51E-3CE0-3A39980B2F4A">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[CHAVE PRIMÁRIA DO CURRÍCULO DO CANDIDATO.]]></commentInRDBMS>
+<generatorID>24922EEE-DC81-92DE-6E46-696B8B02E6F7</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SQ_IBM_CURRICULO</autoIncrementSequenceName>
+<autoIncrementTriggerName>TR_IBM_CURRICULO</autoIncrementTriggerName>
+</Column>
+<Column name="ID_CANDIDATO" id="5035BF43-E16B-C6E2-C65F-DFDB176ACDBD">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>399CD2B8-5430-6793-11C6-762EFE8606B4</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2BA7A42-3018-5D7F-CB4D-2F7DC3C094B6" referredColumn="1BBBCE37-8D60-688C-43F6-C23565C50B74"/>
+</associations>
+</Column>
+<Column name="ID_FORMACAO" id="7EFC9FEE-63D0-864F-0822-A60EDAD70F08">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>3A987502-8D4A-9A50-B9CB-26B59514ED06</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2084572D-DC21-73ED-9F8E-2B1BC0D1CFE8" referredColumn="C75202A0-D760-EFD7-B350-979852AD97FC"/>
+</associations>
+</Column>
+<Column name="ID_SKILL" id="A63AF19C-31FF-6F0E-BBDF-979277BF79F4">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>CB67FD00-C71F-9B98-59D7-AE77B62D46D1</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94B3F107-DC37-165D-8554-17E2C7DB0CC2" referredColumn="FB7EEB5B-D5DD-76EB-7BA9-73E5EDD28334"/>
+</associations>
+</Column>
+<Column name="APRESENTACAO_PESSOAL" id="ECA6631C-500B-DB72-2330-69DF844EC094">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[APRESENTAÇÃO PESSOAL DO CANDIDADATO COM AS PRÓPRIAS PALAVRAS.]]></commentInRDBMS>
+<generatorID>02E269C6-CCE7-AA98-B368-EF094BC37681</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C75E1BC6-E7A1-4CC8-71C3-628858B54FE2" name="T_IBM_CURRICULO_PK">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>ADED4A08-1EE1-CD0E-3BC7-DF3F7565D9B4</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50F897B7-2D06-F51E-3CE0-3A39980B2F4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DD5159E-0A66-9DE0-5085-B6AB03805F3C" name="T_IBM_CURRICULO__IDX">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6DD3F50F-8117-3AC4-8F40-21FACF4B8303</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5035BF43-E16B-C6E2-C65F-DFDB176ACDBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8D1BBE4-2405-372C-9252-89A13D61EC8A" name="CANDIDATO_CURRICULO">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>6DD3F50F-8117-3AC4-8F40-21FACF4B8303</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5035BF43-E16B-C6E2-C65F-DFDB176ACDBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7A5AC74-2B54-FBF0-DE30-CA9661606264" name="FORMACAO_CURRICULO">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>281BBC21-EF19-E7CC-4F19-3E7041E8F84E</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EFC9FEE-63D0-864F-0822-A60EDAD70F08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4E304A1-A9A0-C3EB-F461-E6E92AF6C32F" name="SKILL_CURRICULO">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>926C468D-85D4-E91D-2446-FEEE64E945DD</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A63AF19C-31FF-6F0E-BBDF-979277BF79F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2084572D-DC21-73ED-9F8E-2B1BC0D1CFE8" containerWithKeyObject="29876B5D-DF8B-B836-225E-C51543C84780" localFKIndex="D7A5AC74-2B54-FBF0-DE30-CA9661606264" name="FORMACAO_CURRICULO">
+<createdBy>G-fire</createdBy>
+<createdTime>2022-08-29 05:44:41 UTC</createdTime>
+<generatorID>281BBC21-EF19-E7CC-4F19-3E7041E8F84E</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<referredTableLongName>T_IBM_FORMACAO_ACADEMICA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1263050F-2D69-EC2E-3600-E07342DC756A</referredTableID>
+<keyObject>9227A416-7F3C-CDE0-0AD7-16BDF6073136</keyObject>
+<referredKeyID>9227A416-7F3C-CDE0-0AD7-16BDF6073136</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_FORMACAO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
