@@ -8,7 +8,7 @@
 
 CREATE TABLE t_ibm_candidato (
     id_candidato           NUMBER NOT NULL,
-    nome_candidato         VARCHAR2(200) NOT NULL,
+    nome_candidat         VARCHAR2(200) NOT NULL,
     cpf_candidato          NUMBER NOT NULL,
     rg_candidato           VARCHAR2(20) NOT NULL,
     rne_candidato          NUMBER,
@@ -41,7 +41,7 @@ ALTER TABLE t_ibm_candidato
     ) );
 
 COMMENT ON COLUMN t_ibm_candidato.id_candidato IS
-    'CHAVE PRIM¡RIA DO CANDIDADATO.';
+    'CHAVE PRIM√ÅRIA DO CANDIDADATO.';
 
 COMMENT ON COLUMN t_ibm_candidato.nome_candidato IS
     'NOME CANDIDADO NO SISTEMA.';
@@ -50,10 +50,10 @@ COMMENT ON COLUMN t_ibm_candidato.cpf_candidato IS
     'CPF DO CANDIDATO DO SISTEMA.';
 
 COMMENT ON COLUMN t_ibm_candidato.rg_candidato IS
-    'RG DO CANDIDADATO, PREVENDO VARIA«’ES COM LETRAS.';
+    'RG DO CANDIDADATO, PREVENDO VARIA√á√ïES COM LETRAS.';
 
 COMMENT ON COLUMN t_ibm_candidato.rne_candidato IS
-    'RNE CANDIDADO, CASO SEJA ESTRANGEIRO. N√O OBRIGAT”RIO.';
+    'RNE CANDIDADO, CASO SEJA ESTRANGEIRO. N√ÉO OBRIGAT√ìRIO.';
 
 COMMENT ON COLUMN t_ibm_candidato.estado_civil IS
     'ESTADO CIVIL DO CANDIDATO.';
@@ -71,7 +71,7 @@ COMMENT ON COLUMN t_ibm_candidato.data_nascimento IS
     'DATA DE NASCIMENTO CANDIDATO.';
 
 COMMENT ON COLUMN t_ibm_candidato.genero_candidato IS
-    'G NERO DO CANDIDATO.Este atributo indica o SEXO  do candidato. Campo Obrigatoio e informativo de que (F) i feminino e  (M)masculino.';
+    'G√äNERO DO CANDIDATO.Este atributo indica o SEXO  do candidato. Campo Obrigatoio e informativo de que (F) i feminino e  (M)masculino.';
 
 COMMENT ON COLUMN t_ibm_candidato.st_telefone_candidato IS
     'Este atributo indica o status do telefone do candidato. Campo Obrigatoio e informativo de que (A) ATIVO e (I) de inoperante.';
@@ -97,7 +97,7 @@ CREATE TABLE t_ibm_colaborador_empresa (
 );
 
 COMMENT ON COLUMN t_ibm_colaborador_empresa.id_colaborador IS
-    'CHAVE PRIM¡RIA DO COLABORADOR.';
+    'CHAVE PRIM√ÅRIA DO COLABORADOR.';
 
 COMMENT ON COLUMN t_ibm_colaborador_empresa.nome_colaborador IS
     'NOME COLABORADOR NO SISTEMA.';
@@ -115,7 +115,7 @@ COMMENT ON COLUMN t_ibm_colaborador_empresa.cpf_colaborador IS
     'CPF DO COLABORADOR NO SISTEMA.';
 
 COMMENT ON COLUMN t_ibm_colaborador_empresa.nv_colaborador IS
-    'NÕVEL DO COLABORADOR, PARA ESTABELECER PRIVIL…GIOS DENTRO DO SISTEMA.';
+    'N√çVEL DO COLABORADOR, PARA ESTABELECER PRIVIL√âGIOS DENTRO DO SISTEMA.';
 
 ALTER TABLE t_ibm_colaborador_empresa ADD CONSTRAINT t_ibm_colaborador_pk PRIMARY KEY ( id_colaborador );
 
@@ -130,10 +130,10 @@ CREATE TABLE t_ibm_curriculo (
 );
 
 COMMENT ON COLUMN t_ibm_curriculo.id_curriculo IS
-    'CHAVE PRIM¡RIA DO CURRÕCULO DO CANDIDATO.';
+    'CHAVE PRIM√ÅRIA DO CURR√çCULO DO CANDIDATO.';
 
 COMMENT ON COLUMN t_ibm_curriculo.apresentacao_pessoal IS
-    'APRESENTA«√O PESSOAL DO CANDIDADATO COM AS PR”PRIAS PALAVRAS.';
+    'APRESENTA√á√ÉO PESSOAL DO CANDIDADATO COM AS PR√ìPRIAS PALAVRAS.';
 
 CREATE UNIQUE INDEX t_ibm_curriculo__idx ON
     t_ibm_curriculo (
@@ -151,19 +151,19 @@ CREATE TABLE t_ibm_empresa (
 );
 
 COMMENT ON COLUMN t_ibm_empresa.id_empresa IS
-    'CHAVE PRIM¡RIA EMPRESA. NO CASO DO CHALLENGE, … A IBM, POR…M PREVEMOS QUE OUTRAS EMPRESAS PODEM SER CADASTRADAS FUTURAMENTE.';
+    'CHAVE PRIM√ÅRIA EMPRESA. NO CASO DO CHALLENGE, √â A IBM, POR√âM PREVEMOS QUE OUTRAS EMPRESAS PODEM SER CADASTRADAS FUTURAMENTE.';
 
 COMMENT ON COLUMN t_ibm_empresa.cnpj_empresa IS
     'CNPJ DA EMPRESA NO SISTEMA.';
 
 COMMENT ON COLUMN t_ibm_empresa.razao_social IS
-    'RAZ√O SOCIAL DA EMPRESA NO SISTEMA.';
+    'RAZ√ÉO SOCIAL DA EMPRESA NO SISTEMA.';
 
 COMMENT ON COLUMN t_ibm_empresa.nome_fantasia IS
-    'NOME FANTASIA EMPRESA, N√O OBRIGAT”RIO.';
+    'NOME FANTASIA EMPRESA, N√ÉO OBRIGAT√ìRIO.';
 
 COMMENT ON COLUMN t_ibm_empresa.endereco IS
-    'ENDERE«O DA EMPRESA.';
+    'ENDERE√áO DA EMPRESA.';
 
 ALTER TABLE t_ibm_empresa ADD CONSTRAINT t_ibm_empresa_pk PRIMARY KEY ( id_empresa );
 
@@ -184,7 +184,7 @@ CREATE TABLE t_ibm_end_candidato (
 );
 
 COMMENT ON COLUMN t_ibm_end_candidato.id_endereco IS
-    'CHAVE PRIM¡RIA ENDERE«O CANDIDATO.';
+    'CHAVE PRIM√ÅRIA ENDERE√áO CANDIDATO.';
 
 COMMENT ON COLUMN t_ibm_end_candidato.logradouro IS
     'LOGRADOURO CANDIDATO.';
@@ -193,20 +193,20 @@ COMMENT ON COLUMN t_ibm_end_candidato.uf IS
     'UF DO LOGRADOURO.';
 
 COMMENT ON COLUMN t_ibm_end_candidato.ponto_referencia IS
-    'ponro descriÁao do local ';
+    'ponro descri√ßao do local ';
 
 COMMENT ON COLUMN t_ibm_end_candidato.dt_inicio IS
-    'este atributo ir· receber a data inicio do candidato associado ao endereÁo LOGRADOURO.';
+    'este atributo ir√° receber a data inicio do candidato associado ao endere√ßo LOGRADOURO.';
 
 COMMENT ON COLUMN t_ibm_end_candidato.dt_fim IS
-    'este atributo ir· receber a data fim do candidato associado ao endereÁo LOGRADOURO.
-Seu conteudo È obrigatorio.';
+    'este atributo ir√° receber a data fim do candidato associado ao endere√ßo LOGRADOURO.
+Seu conteudo √© obrigatorio.';
 
 COMMENT ON COLUMN t_ibm_end_candidato.bairro IS
-    'esse atributo armazena a informaÁ„o  do bairro ';
+    'esse atributo armazena a informa√ß√£o  do bairro ';
 
 COMMENT ON COLUMN t_ibm_end_candidato.cep IS
-    'Este atributo È obrigatorio e armazena o valor do cep';
+    'Este atributo √© obrigatorio e armazena o valor do cep';
 
 COMMENT ON COLUMN t_ibm_end_candidato.cidade IS
     'esse atributo recebe o valor do nome cidade';
@@ -227,7 +227,7 @@ CREATE TABLE t_ibm_end_empresa (
 );
 
 COMMENT ON COLUMN t_ibm_end_empresa.id_endereco_ibm IS
-    'este atributo È o de identificaÁ„o primary key';
+    'este atributo √© o de identifica√ß√£o primary key';
 
 ALTER TABLE t_ibm_end_empresa ADD CONSTRAINT t_ibm_end_empresa_pk PRIMARY KEY ( id_endereco_ibm );
 
@@ -245,10 +245,10 @@ COMMENT ON COLUMN t_ibm_feedback.id_feedback IS
     'ID FEEDBACK PARA O CANDIDATO.';
 
 COMMENT ON COLUMN t_ibm_feedback.tipo_feedback IS
-    'SE … POSITIVO OU NEGATIVO, IMPACTANDO NO C¡LCULO DO SCORE.';
+    'SE √â POSITIVO OU NEGATIVO, IMPACTANDO NO C√ÅLCULO DO SCORE.';
 
 COMMENT ON COLUMN t_ibm_feedback.desc_feedback IS
-    'DESCRI«√O DO FEEDBACK';
+    'DESCRI√á√ÉO DO FEEDBACK';
 
 COMMENT ON COLUMN t_ibm_feedback.data_feedback IS
     'DATA DO FEEDBACK NO SISTEMA.';
@@ -268,19 +268,19 @@ COMMENT ON COLUMN t_ibm_formacao_academica.id_formacao IS
     'ID DA FORMACAO CADASTRADA NO SISTEMA.';
 
 COMMENT ON COLUMN t_ibm_formacao_academica.nivel_formacao IS
-    'ESTABELECER SE … ENSINO M…DIO, SUPERIOR, P”S GRADUA«√O, MBA...';
+    'ESTABELECER SE √â ENSINO M√âDIO, SUPERIOR, P√ìS GRADUA√á√ÉO, MBA...';
 
 COMMENT ON COLUMN t_ibm_formacao_academica.instituicao IS
-    'INFORMAR A INSTITUI«√O QUE EST¡ CURSANDO OU CURSOU.';
+    'INFORMAR A INSTITUI√á√ÉO QUE EST√Å CURSANDO OU CURSOU.';
 
 COMMENT ON COLUMN t_ibm_formacao_academica.data_inicio IS
-    'DATA INÕCIO FORMA«√O.';
+    'DATA IN√çCIO FORMA√á√ÉO.';
 
 COMMENT ON COLUMN t_ibm_formacao_academica.data_fim IS
-    'DATA FIM FORMA«√O.';
+    'DATA FIM FORMA√á√ÉO.';
 
 COMMENT ON COLUMN t_ibm_formacao_academica.status IS
-    'INFORMAR SE EST¡ COMPLETO, INCOMPLETO OU CURSANDO.';
+    'INFORMAR SE EST√Å COMPLETO, INCOMPLETO OU CURSANDO.';
 
 ALTER TABLE t_ibm_formacao_academica ADD CONSTRAINT t_ibm_formacao_academica_pk PRIMARY KEY ( id_formacao );
 
@@ -297,7 +297,7 @@ COMMENT ON COLUMN t_ibm_processo_seletivo.id_processo_seletivo IS
     'ID PROCESSO SELETIVO.';
 
 COMMENT ON COLUMN t_ibm_processo_seletivo.data_inicio IS
-    'DATA INÕCIO PROCESSO SELETIVO.';
+    'DATA IN√çCIO PROCESSO SELETIVO.';
 
 COMMENT ON COLUMN t_ibm_processo_seletivo.data_fim IS
     'DATA FIM PROCESSO SELETIVO.';
@@ -346,10 +346,10 @@ COMMENT ON COLUMN t_ibm_skills.nome_skill IS
     'NOME DA SKILL.';
 
 COMMENT ON COLUMN t_ibm_skills.tipo_skill IS
-    'DISCRIMINAR SE … UMA HARDSKILL OU SOFTSKILL';
+    'DISCRIMINAR SE √â UMA HARDSKILL OU SOFTSKILL';
 
 COMMENT ON COLUMN t_ibm_skills.nivel_skill IS
-    'DEPENDENDO DA SOFTSKILL OU HARDSKILL, OPICIONAL COLOCAR O NÕVEL (EX. INGL S PODE SER B¡SICO, INTERMEDI¡RIO OU AVAN«ADO)';
+    'DEPENDENDO DA SOFTSKILL OU HARDSKILL, OPICIONAL COLOCAR O N√çVEL (EX. INGL√äS PODE SER B√ÅSICO, INTERMEDI√ÅRIO OU AVAN√áADO)';
 
 ALTER TABLE t_ibm_skills ADD CONSTRAINT t_ibm_softskill_pkv1 PRIMARY KEY ( id_skill );
 
@@ -363,13 +363,13 @@ CREATE TABLE t_ibm_vaga (
 );
 
 COMMENT ON COLUMN t_ibm_vaga.id_vaga IS
-    'CHAVE PRIM¡RIA VAGA DISPONÕVEL.';
+    'CHAVE PRIM√ÅRIA VAGA DISPON√çVEL.';
 
 COMMENT ON COLUMN t_ibm_vaga.descricao_vaga IS
     'DESCRITIVO DA VAGA OFERTADA.';
 
 COMMENT ON COLUMN t_ibm_vaga.requisito_nivel_academico IS
-    'ONDE SER¡ INDICADO SE A VAGA … NÕVEL M…DIO, SUPERIOR CURSANDO, SUPERIOR COMPLETO, ENTRE OUTROS.';
+    'ONDE SER√Å INDICADO SE A VAGA √â N√çVEL M√âDIO, SUPERIOR CURSANDO, SUPERIOR COMPLETO, ENTRE OUTROS.';
 
 ALTER TABLE t_ibm_vaga ADD CONSTRAINT t_ibm_empresa_pkv1 PRIMARY KEY ( id_vaga );
 
@@ -559,7 +559,7 @@ END;
 
 
 
--- RelatÛrio do Resumo do Oracle SQL Developer Data Modeler: 
+-- Relat√≥rio do Resumo do Oracle SQL Developer Data Modeler: 
 -- 
 -- CREATE TABLE                            12
 -- CREATE INDEX                             3
